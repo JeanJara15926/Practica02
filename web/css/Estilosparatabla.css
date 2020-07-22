@@ -56,3 +56,33 @@ table.ecologico tr:nth-of-type(even){
 table.ecologico tbody tr:hover {
     background-color: #FFFF00;
 }
+
+/*Estilo Mar*/
+
+table.mar {
+    border-collapse: collapse;
+}
+
+table.mar td, table.mar th{
+    border: 1px solid #fff;
+    padding: 6px 12px;
+}
+
+table.mar thead td, table.mar thead th,
+table.mar tfoot td, table.mar tfoot th{
+    font-weight: bold;
+    background-color: #0078D7;
+    color: #fff;
+}
+
+table.mar tr:nth-of-type(odd) {
+    background-color: #21ABFF;
+}
+
+table.mar tr:nth-of-type(even) {
+    background-color: #C0DCF3;
+}
+
+table.mar tbody tr:hover {
+    background-color: #ffff88;
+}
