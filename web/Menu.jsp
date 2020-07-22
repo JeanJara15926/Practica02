@@ -39,6 +39,6 @@
         </div>
     </body>
     <footer>
-        <p>Diseñado y desarrollado por el grupo Programación ATS</p>
+        <p>Diseñado y desarrollado por el grupo Programación ATS - UNTELS</p>
     </footer>
 </html>

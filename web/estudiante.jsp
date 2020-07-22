@@ -12,7 +12,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Estudiante</title>
         <link href="css/Estilosparatabla.css" rel="stylesheet" type="text/css"/>
-
+        <link href="css/estilosmenu.css" rel="stylesheet" type="text/css"/>
         <%!
             String consulta;
             Connection cn;
@@ -28,6 +28,9 @@
         %>
     </head>
     <body>
+        <header>
+            <h1>REGISTRO DE ESTUDIANTES</h1>
+        </header>
         <% 
             
             try {
@@ -228,7 +231,7 @@
                                 <td><%out.print(rs.getString(6));%></td>
                                 <td><a href="estudiante.jsp?f_accion=E&f_idestudiante=<%out.print(ide);%>">Eliminar</a></td>
                                 <td><a href="estudiante.jsp?f_accion=M1&f_idestudiante=<%out.print(ide);%>">Editar</a></td>
-                            </tr>                    
+                            </tr>
                     <%
                        
                     }
@@ -239,6 +242,56 @@
             } catch (Exception e) {
             }
         %>
+                            <tr align="center" align="center">
+                                <td colspan="8">
+                                    <form name="EnviarMenú" action="Menu.jsp" method="POST">
+                                        <input type="submit" value="Menú" name="EnviarMenú" />
+                                    </form>
+                                </td>
+                            </tr>
                     </table>
+                            <table border="0">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+        <table border="1">
+           <thead>
+               <tr>
+                   <th>   </th>
+               </tr>
+           </thead>
+           <tbody>
+               <tr>
+                   <td>    </td>
+               </tr>
+               <tr>
+                   <td>    </td>
+               </tr>
+               <tr>
+                   <td>   </td>
+               </tr>
+               <tr>
+                   <td>   </td>
+               </tr>
+                                                   <tr>
+                   <td>   </td>
+               </tr>
+                                                   <tr>
+                   <td>   </td>
+               </tr>
+           </tbody>
+       </table>
+
     </body>
+    <footer>
+        <p>Diseñado y desarrollado por el grupo Programación ATS - UNTELS</p>
+    </footer>
 </html>
