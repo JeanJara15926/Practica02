@@ -19,11 +19,11 @@
         <div class="contenido">
             <div class="grid-container">
                 <div class="grid-item">
-                    <a href="estudiantes.jsp"><img src="img/estudiante.png"></a>
+                    <a href="estudiante.jsp"><img src="img/estudiante.png"></a>
                     <p>Estudiantes</p>
                 </div>
                 <div class="grid-item">
-                    <a href="cursos.jsp"><img src="img/libro.png"></a>
+                    <a href="curso.jsp"><img src="img/libro.png"></a>
                     <p>Cursos</p>
                 </div>
                 <div class="grid-item">
