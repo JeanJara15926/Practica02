@@ -49,7 +49,7 @@
                               
                     %>    
                 <form name="EditarCursoForm" action="curso.jsp" method="GET">
-                    <table border="0" align="center"class="ecologico">
+                    <table border="0" align="center" class="mar" style="margin: auto; display: table" >
                         <thead>
                             <tr>
                                 <th colspan="2">Editar Curso</th>
@@ -220,8 +220,17 @@
                                 <td><%out.print(rs.getString(4));%></td>
                                 <td><%out.print(rs.getString(5));%></td>
                                 <td><%out.print(rs.getString(6));%></td>
-                                <td><a href="curso.jsp?f_accion=E&f_idcurso=<%out.print(ide);%>">Eliminar</a></td>
-                                <td><a href="curso.jsp?f_accion=M1&f_idcurso=<%out.print(ide);%>">Editar</a></td>
+                                <td>
+                                    <a href="curso.jsp?f_accion=M1&f_idcurso=<%out.print(ide);%>">
+                                        <img src="img/062-pencil.png" width="20" height="20" alt="062-pencil"/>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="curso.jsp?f_accion=E&f_idcurso=<%out.print(ide);%>">
+                                        <img src="img/019-close.png" width="20" height="20" alt="019-close"/>                          
+                                    </a>
+                                </td>
+                                
                             </tr>                    
                     <%
                        

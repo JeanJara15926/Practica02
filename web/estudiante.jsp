@@ -44,14 +44,14 @@
                                 + " from estudiante  "
                                 + " where  "
                                 + " idestudiante =  " + s_idestudiante;
-                    out.print(consulta);
+                    
                     pst = cn.prepareStatement(consulta);
                     rs = pst.executeQuery();
                     if (rs.next()) {
                               
                     %>    
                 <form name="EditarEstudianteForm" action="estudiante.jsp" method="GET">
-                    <table border="0" align="center"class="ecologico">
+                    <table border="0" align="center"class="mar" style="margin: auto; display: table">
                         <thead>
                             <tr>
                                 <th colspan="2">Editar Estudiante</th>
@@ -229,8 +229,17 @@
                                 <td><%out.print(rs.getString(4));%></td>
                                 <td><%out.print(rs.getString(5));%></td>
                                 <td><%out.print(rs.getString(6));%></td>
-                                <td><a href="estudiante.jsp?f_accion=E&f_idestudiante=<%out.print(ide);%>">Eliminar</a></td>
-                                <td><a href="estudiante.jsp?f_accion=M1&f_idestudiante=<%out.print(ide);%>">Editar</a></td>
+                                <td>
+                                    <a href="estudiante.jsp?f_accion=M1&f_idestudiante=<%out.print(ide);%>">
+                                        <img src="img/062-pencil.png" width="20" height="20" alt="062-pencil"/>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="estudiante.jsp?f_accion=E&f_idestudiante=<%out.print(ide);%>">
+                                        <img src="img/019-close.png" width="20" height="20" alt="019-close"/>                                         
+                                    </a>
+                                </td>
+                                
                             </tr>
                     <%
                        
