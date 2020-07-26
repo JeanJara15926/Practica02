@@ -97,7 +97,7 @@
             <table border="0" align="center" class="mar" style="margin: auto; display: table">
                 <thead>
                     <tr>
-                        <th colspan="2">Agregar Estudiante</th>
+                        <th colspan="2">Agregar Curso</th>
                         
                     </tr>
                 </thead>
