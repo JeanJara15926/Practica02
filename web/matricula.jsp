@@ -55,7 +55,7 @@
                     <table border="0" align="center"class="mar" style="margin: auto; display: table">
                         <thead>
                             <tr>
-                                <th colspan="2">Editar Estudiante</th>
+                                <th colspan="2">Editar Matricula</th>
 
                             </tr>
                         </thead>
