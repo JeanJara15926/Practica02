@@ -31,7 +31,7 @@
                     <p>Carreras</p>
                 </div>
                 <div class="grid-item">
-                    <a href="matriculas.jsp"><img src="img/prueba.png"></a>
+                    <a href="matricula.jsp"><img src="img/prueba.png"></a>
                     <p>Matriculas</p>
                 </div>
             </div>
